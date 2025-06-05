@@ -1,0 +1,14 @@
+{
+  "icon1": [ 
+    { "id": 1, "name": "Computers", "info": "Details A" },
+    { "id": 2, "name": "Physics", "info": "Details B" }
+  ],
+  "icon2": [
+    { "id": 1, "name": "Chemistry", "info": "Info 1" },
+    { "id": 2, "name": "Econimics", "info": "Info 2" }
+  ],
+ "icon3": [
+  { "id": 1, "name": "Botiny", "info": "Option 1" },
+ { "id": 2, "name": "Drawing", "info": "Option 2" }
+]
+  }

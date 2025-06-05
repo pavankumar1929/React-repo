@@ -1,0 +1,7 @@
+/* styles.css */
+.table-hover tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.table-hover tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}

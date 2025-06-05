@@ -1,0 +1,40 @@
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #007bff;
+}
+
+h2 {
+  font-weight: 600;
+}
+.iii{
+  background-color: aqua;
+}
+.surendra{
+  background-color: aqua;
+}
+.he{
+  background-color: #007bff;
+}
