@@ -3,6 +3,8 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
+import Navbar from './Navbar'; // Adjust the path if needed
+
 
 function Layout() {
   return (
@@ -13,6 +15,8 @@ function Layout() {
         <div className="flex-grow-1 p-3" style={{ minHeight: '80vh' }}>
           <Outlet />
         </div>
+              <Navbar />
+
       </div>
       <Footer />
     </>
@@ -20,3 +24,5 @@ function Layout() {
 }
 
 export default Layout;
+
+

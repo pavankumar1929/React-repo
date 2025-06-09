@@ -10,6 +10,8 @@ function Logout() {
     localStorage.clear();
     navigate('/');
   }, [navigate]); // ✅ added 'navigate' as a dependency
+ 
+
 
   return null;
 }

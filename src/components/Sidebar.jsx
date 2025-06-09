@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaBook, FaChartBar, FaCog, FaSignOutAlt } from 'react-icons/fa';
 
 function Sidebar() {
@@ -13,7 +15,14 @@ function Sidebar() {
         <NavLink to="/Subjectpage" className="nav-link text-white"><FaCog /> Subjectpage</NavLink>
         <NavLink to="/ContactForm" className="nav-link text-white"><FaCog />ContactForm</NavLink>
          <NavLink to="/PayPalPage" className="nav-link text-white"><FaCog />PayPalPage</NavLink>
-        <NavLink to="/logout" className="nav-link text-white"><FaSignOutAlt /> Logout</NavLink>
+         <NavLink to="/SyllabusPage" className="nav-link text-white"><FaSignOutAlt /> SyllabusPage</NavLink>
+         <NavLink to="/timetable" className="nav-link text-white"><FaBook /> Timetable</NavLink>
+         <NavLink to="/library" className="nav-link text-white"><FaBook /> Library</NavLink>
+         <NavLink to="/logout" className="nav-link text-white">
+  <FaSignOutAlt /> Logout
+</NavLink>
+
+        {/* <NavLink to="/logout" className="nav-link text-white"><FaSignOutAlt /> Logout</NavLink> */}
       </nav>
     </div>
   );
